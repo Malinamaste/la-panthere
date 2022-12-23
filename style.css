@@ -505,9 +505,30 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
+#form {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.form-group {
+    margin-bottom: 1rem;
+}
+
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
+    display: block;
+    width: 42%;
+    padding: 6px 12px;
+    line-height: 1.5;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+label {
+    margin-bottom: 0.3rem;
+    display: block;
 }
 
 .scrollToTop {
@@ -516,7 +537,7 @@ button {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    opacity: 0;
+    opacity: 1;
     z-index: 500;
     transition: all .3s ease-in-out;
 }
@@ -694,7 +715,7 @@ p {
     margin-top: 22px;
     color: #FFFFFF;
     text-transform: uppercase;
-    padding: 12px 28px 12px 28px;
+    padding: 1rem 3rem;
     font-size: 16px;
     font-weight: 700;
 }
@@ -783,7 +804,7 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #FFFFFF;
+    color: #333333;
 }
 
 .btn-atomic-tangerine:hover {
