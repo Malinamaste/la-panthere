@@ -505,20 +505,11 @@ button {
     border-radius: 0 0 29px 29px;
 }
 
-#form {
-    margin-left: auto;
-    margin-right: auto;
-}
-
-.form-group {
-    margin-bottom: 1rem;
-}
-
 .form-control {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
     display: block;
-    width: 42%;
+    width: 83%;
     padding: 6px 12px;
     line-height: 1.5;
     color: #555;
@@ -544,6 +535,11 @@ label {
 
 .scrollToTop span {
     margin-top: 6px;
+    color: #333333;
+    font-size: 1.3rem;
+    position: absolute;
+    top: 6px;
+    left: 9px;
 }
 
 .showScrollTop {
@@ -718,12 +714,25 @@ p {
     padding: 1rem 3rem;
     font-size: 16px;
     font-weight: 700;
+    width: 45%;
+}
+
+footer .text-center {
+    font-size: 1.5rem;
+    margin: 2rem 0;
+    color: #333333;
 }
 
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
     font-size: 2.7rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.social .fa {
+    color: #333333!important;
 }
 
 h2 {
